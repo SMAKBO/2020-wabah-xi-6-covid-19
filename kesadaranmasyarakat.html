@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<title>COVID-19</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("masyarakat.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide">Quarantine</a>
+    <!-- Right-sided navbar links -->
+<div class="w3-right w3-hide-small">
+
+
+    <a href="index.html" class="w3-bar-item w3-button"> HOME</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-button" title="Notifications">PERAN PEMERINTAH DAN MASYARAKAT<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block ">
+      <a href="peranpemerintah.html" class="w3-bar-item w3-button">Peran Pemerintah</a>
+      <a href="kesadaranmasyarakat.html" class="w3-bar-item w3-button">Kesadaran Masyarakat</a>
+      <a href="actionplan.html" class="w3-bar-item w3-button">Action Plan</a>
+    </div>
+    </div>      
+      <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-button" title="Notifications">KASUS PENYEBARAN<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="asal mula.html" class="w3-bar-item w3-button">Asal Mula</a>
+      <a href="kawasanterinfeksi.html" class="w3-bar-item w3-button">Kawasan Terinfeksi</a>
+      <a href="petawilayahkasuspenyebaran.html" class="w3-bar-item w3-button">Peta Wilayah Kasus Penyebaran</a>
+    </div>
+    </div>
+      <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-button" title="Notifications">"TENTANG COVID-19"<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="gejala.html" class="w3-bar-item w3-button">Gejala</a>
+      <a href="pencegahan.html" class="w3-bar-item w3-button">Pencegahan</a>
+      <a href="pengobatan.html" class="w3-bar-item w3-button">Pengobatan</a>
+    </div>
+    </div></div>
+
+    
+    
+      </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING/a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+
+</nav>
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Bagaimana kesadaran masyarakat terkait COVID-19?</span><br>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Klik</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Kesadaran Masyarakat</h3>
+  <p class="w3-center w3-large">Dengan adanya fenomena ini, akan sangat berdampak dalam berbagai aspek, baik secara ekonomi, sosial, akademis dan lainnya. Adanya fenomena yang terjadi dalam skala yang besar, membutuhkan upaya dan kerjasama bukan hanya dari pemerintah, tim medis, kelompok atau komunitas saja tetapi juga upaya dari seluruh masyarakat untuk ikut serta paling tidak dalam mengurangi kemungkinan penyebaran virus dengan cara lebih peduli dan sadar tindakan apa yang seharusnya diambil. Namun,masih banyak masyarakat yang memiliki tingkat kesadaran dan kepedulian yang rendah mengenai COVID-19 ini. Remaja di beberapa wilayah seperti Bandung,masih banyak yang nongkrong di café maupun tempat hiburan lainnya. Hal inilah yang dapat menyebabkan penyebaran virus corona berlangsung cepat. Oleh karena itu seluruh masyarakat Indonesia harus memiliki tingkat kesadaran yang tinggi untuk memutus mata rantai penyebaran vius corona. 
+ 
+  </p>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-maroon w3-padding-64">
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p class="footer">Maintained by Erwina Citra Ananda</p>
+  </footer>
+
+</html>
