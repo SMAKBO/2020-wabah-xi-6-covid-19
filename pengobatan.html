@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<title>COVID-19</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://img.jakpost.net/c/2020/02/27/2020_02_27_87566_1582786970._large.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide">Quarantine</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+
+      <a href="gejala.html" class="w3-bar-item w3-button">GEJALA</a>
+      <a href="#tentang COVID-19" class="w3-bar-item w3-button">TENTANG COVID-19</a>
+      <a href="#kasus penyebaran" class="w3-bar-item w3-button"></i> KASUS PENYEBARAN</a>
+      <a href="#penanggulangan" class="w3-bar-item w3-button"></i> PENANGGULANGAN</a>
+      <a href="pengobatan.html" class="w3-bar-item w3-button"></i> PENGOBATAN</a>
+    
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING/a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+
+</nav>
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Apa yang harus dilakukan</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Apa yang harus dilakukan</span><br>
+    <span class="w3-large">Jika kita positif corona</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Klik</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Perawatan Diri</h3>
+  <p class="w3-center w3-large">Karena sejauh ini belum ada obat khusus untuk mencegah atau mengobati Covid-19
+  </br>Untuk sementara ini, gejala ringan dapat diatasi dengan
+  </p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <img src="https://simpleicon.com/wp-content/uploads/rest.png" width="64px" height="64px">
+      <p class="w3-large">Beristirahat</p>
+      <p>Dengan tidur atau beristirahat yang cukup tubuh dapat menjadi lebih segar.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.pngkey.com/png/full/260-2600266_water-glass-vector-glass-with-water-icon-png.png" width="64px" height="64px">
+      <p class="w3-large">Minum air</p>
+      <p>Dengan banyak minum air putih tubuh tidak akan kekurangan cairan.</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="https://raw.githubusercontent.com/SMAKBO/2020-wabah-xi-6-covid-19/master/termo.png" width="64px" height="64px">
+      <p class="w3-large">Menjaga suhu tubuh</p>
+      <p>Jaga kondisi tubuh, terutama suhu agar tetap hangat.</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="https://raw.githubusercontent.com/SMAKBO/2020-wabah-xi-6-covid-19/master/humidity.png" width="64px" height="64px">
+      <p class="w3-large">Menjaga kondisi ruangan</p>
+      <p>Dengan menjaga kondisi ruangan agar selalu lembab dapat membantu untuk
+          meringankan sakit tenggorokan dan batuk
+      </p>
+    </div>
+  </div>
+</div>
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Terapi Medis</h3>
+      <p>Jika Anda mengalami demam, batuk, dan sesak nafas, segera cari bantuan medis.
+          <br>Hubungi tenaga medis atau hotline terlebih dahulu, lalu jelaskan kepada tenaga medis terkait riwayat
+           bepergian atau interaksi anda dengan orang lain akhir-akhir ini.</p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://i.pinimg.com/originals/57/8a/64/578a64085e5425bc7c653d09013a1520.png" 
+      alt="Hospital" width="310" height="300">
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p class="footer">Maintained by Reifa Adrila Rahmadhiyan</p>
+  </footer>
+
+</html>
